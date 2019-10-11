@@ -178,6 +178,12 @@ p {
   width: 35%;
   padding-top: 20px;
 }
+@media (max-width:500px) {
+  .navBar nav {
+    width: 85%;
+    justify-content: space-between;
+  }
+}
 .navBar nav a {
   color: #454A59;
   text-decoration: none;

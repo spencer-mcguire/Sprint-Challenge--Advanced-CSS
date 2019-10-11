@@ -1,25 +1,30 @@
 // Navigation code here
 
 .navBar {
-    .navDecoration();
-    .flexBasic(column, center, center);
-    padding: 15px 0;
+	.navDecoration();
+	.flexBasic(column, center, center);
+	padding: 15px 0;
 
-    h1 {
-        font-size: 5rem;
-    }
-    nav {
-        display: flex;
-        justify-content: space-between;
-        width: 35%;
-        padding-top: 20px;
+	h1 {
+		font-size: 5rem;
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+		width: 35%;
+		padding-top: 20px;
 
-        a {
-            .linksDecoration();
+		@media @phone {
+			width: 85%;
+			justify-content: space-between;
+		}
 
-            &:hover{
-                color: lighten(black, 50%);
-            }
-        }
-    }
+		a {
+			.linksDecoration();
+
+			&:hover {
+				color: lighten(black, 50%);
+			}
+		}
+	}
 }
