@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Sign Up for SpaceWalkers</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu"
+			rel="stylesheet"
+		/>
+		<link href="css/index.css" rel="stylesheet" />
+
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<section class="navBar">
+			<h1>SpaceWalkers</h1>
+
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="#">About Us</a>
+				<a href="#">Blog</a>
+				<a href="#">Contact</a>
+				<a href="#">Sign In</a>
+			</nav>
+		</section>
+
+		<div class="container home">
+			<header class="intro">
+				<!-- image code here -->
+				<img src="img/signup-header.jpg" alt="Colorful Sky" />
+            </header>
+            <h2>Sign Up</h2>
+            <section>
+                <form>
+                    <div class="row">
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                          <input type="text" id="email" name="email" placeholder="Your Email..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                          <input type="text" id="address" name="address" placeholder="Your Address..">
+                        </div>
+                      </div>
+                    <div class="row">
+                        <div class="col-75">
+                          <select id="State" name="State">
+                            <option value="texas">Texas</option>
+                            <option value="tennessee">Tennessee</option>
+                            <option value="ohio">Ohio</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-75">
+                          <select id="country" name="country">
+                            <option value="usa">USA</option>
+                            <option value="canada">Canada</option> 
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <button>Submit</button>
+                      </div>
+                    </form>
+                    <img src="img/signup-astronaut.jpg" alt="astronaut">
+            </section>
+            <footer>
+                <p>Copyright SpaceWalkers 2018</p>
+            </footer>
+		</div>
+	</body>
+</html>
