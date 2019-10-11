@@ -1,1 +1,25 @@
 // Navigation code here
+
+.navBar {
+    .navDecoration();
+    .flexBasic(column, center, center);
+    padding: 15px 0;
+
+    h1 {
+        font-size: 5rem;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+        padding-top: 20px;
+
+        a {
+            .linksDecoration();
+
+            &:hover{
+                color: lighten(black, 50%);
+            }
+        }
+    }
+}
