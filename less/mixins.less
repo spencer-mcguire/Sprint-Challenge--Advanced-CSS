@@ -1,1 +1,33 @@
 // Mixins Here
+
+.flexBasic (@flow, @justify, @align){
+    display: flex;
+    flex-flow: @flow;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.navDecoration (@bg: @nav-bg, @borderColor: @nav-border){
+    background: @bg;
+    border-bottom: 1px solid @borderColor;
+}
+
+.linksDecoration (@color: @nav-font, @size: 2rem){
+    color: @color;
+    text-decoration: none;
+    font-size: @size;
+}
+
+.button (@bg: @header-font-color, @color: white,){
+    background: @bg;
+    color: @color;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    padding: 5px 15px;
+
+}
+
+.buttonHover (){
+    background: white;
+    color: @header-font-color
+}
